@@ -5,6 +5,8 @@
 
 Solutions are present in their corresponding chapter directories as individual cpp files with (hopefully) descriptive names. Each solution begins with the question and concludes with the output in the form of comments.
 
+[**My handwritten notes**](notes.pdf)
+
 ### Contents
 
 | ID | Chapter |
