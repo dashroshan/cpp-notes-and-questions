@@ -10,22 +10,24 @@ Solutions are present in their corresponding chapter directories as individual c
 | ID | Chapter |
 | --- | --- |
 | 01 | Principles of Object-Oriented Programming |
-| 02 | Beginning with C++ |
-| 03 | Tokens, Expressions and Control Structures |
-| 04 | Functions in C++ |
-| 05 | Classes and Objects |
-| 06 | Constructors and Destructors |
-| 07 | Operator Overloading and Type Conversions |
-| 08 | Inheritance: Extending Classes |
-| 09 | Pointers, Virtual Functions and Polymorphism |
-| 10 | Managing Console I/O Operations |
-| 11 | Working with Files |
-| 12 | Templates |
-| 13 | Exception Handling |
-| 14 | Introduction to the Standard Template Library |
-| 15 | Manipulating Strings |
+| 02 | [Beginning with C++](#02---beginning-with-c) |
+| 03 | [Tokens, Expressions and Control Structures](#03---tokens-expressions-and-control-structures) |
+| 04 | [Functions in C++](#04---functions-in-c) |
+| 05 | [Classes and Objects](#05---classes-and-objects) |
+| 06 | [Constructors and Destructors](#06---constructors-and-destructors) |
+| 07 | [Operator Overloading and Type Conversions](#07---operator-overloading-and-type-conversions) |
+| 08 | [Inheritance: Extending Classes](#08---inheritance--extending-classes) |
+| 09 | [Pointers, Virtual Functions and Polymorphism](#09---pointers-virtual-functions-and-polymorphism) |
+| 10 | [Managing Console I/O Operations](#10---managing-console-io-operations) |
+| 11 | [Working with Files](#11---working-with-files) |
+| 12 | [Templates](#12---templates) |
+| 13 | [Exception Handling](#13---exception-handling) |
+| 14 | [Introduction to the Standard Template Library](#14---standard-template-library) |
+| 15 | [Manipulating Strings](#15---manipulating-strings) |
 | 16 | New Features of ANSI C++ Standard |
 | 17 | Object-Oriented Systems Development |
+
+# NOTES
 
 # 02 - Beginning With C++
 
@@ -591,7 +593,7 @@ public:
 };
 ```
 
-# Pointers, Virtual Functions, and Polymorphism
+# 09 - Pointers, Virtual Functions, and Polymorphism
 
 ### Pointer
 
@@ -677,7 +679,7 @@ ostream &CustomManipulator(ostream &outPutStream)
 cout << customManipulator << otherStuffs;
 ```
 
-# Working with Files
+# 11 - Working with Files
 
 ### Stream declaration
 
