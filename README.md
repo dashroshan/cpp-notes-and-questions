@@ -5,7 +5,7 @@
 
 Solutions are present in their corresponding chapter directories as individual cpp files. Each solution begins with the question and concludes with the output in the form of comments.
 
-### Contents
+### Index
 
 | ID | Chapter |
 | --- | --- |
@@ -112,6 +112,8 @@ cout << newNumVar;
 ### Relationship with C
 
 C++ is a superset of C, so most of the things that worked in C, works the same way in C++ too.
+
+[**Jump to Index**](#index)
 
 # 03 - Tokens, Expressions, and Control Structures
 
@@ -252,6 +254,8 @@ for (initialization; testCondition; increment)
 // initialization -> testCondition -> code -> increment -> testCondition -> code -> increment -> ...
 ```
 
+[**Jump to Index**](#index)
+
 # 04 - Functions in C++
 
 ### 3 Parts of function
@@ -344,6 +348,8 @@ We can have multiple functions of the same name with different number and types 
 - **fabs(x) -** |x|
 - **log(x), log10(x) -** lnx and logx
 
+[**Jump to Index**](#index)
+
 # 05 - Classes and Objects
 
 ### Structure
@@ -409,6 +415,8 @@ public:
 
 A friend function can access private stuffs of classes in which it is declared as a friend. It is usually used with reference to class objects as arguments.
 
+[**Jump to Index**](#index)
+
 # 06 - Constructors and Destructors
 
 ### Constructor
@@ -448,6 +456,8 @@ className::~className()
     // Used to delete dynamically allocated memory
 }
 ```
+
+[**Jump to Index**](#index)
 
 # 07 - Operator Overloading and Type Conversions
 
@@ -503,6 +513,8 @@ basicDataTypeVar = classNameVar;
 **(Class -> Class type)**
 
 We can use the class to basic type method and treat the 2nd class as the basicDataType.
+
+[**Jump to Index**](#index)
 
 # 08 - Inheritance : Extending Classes
 
@@ -593,6 +605,8 @@ public:
 };
 ```
 
+[**Jump to Index**](#index)
+
 # 09 - Pointers, Virtual Functions, and Polymorphism
 
 ### Pointer
@@ -624,6 +638,8 @@ ptr->memberFn(args);   // Way 1
 ### *this Pointer
 
 All class members have access to a `*this` pointer which points to the object itself.
+
+[**Jump to Index**](#index)
 
 # 10 - Managing Console I/O Operations
 
@@ -678,6 +694,8 @@ ostream &CustomManipulator(ostream &outPutStream)
 }
 cout << customManipulator << otherStuffs;
 ```
+
+[**Jump to Index**](#index)
 
 # 11 - Working with Files
 
@@ -747,6 +765,8 @@ while (fIn.read((char *)&objVar, sizeof(objVar)))
 }
 ```
 
+[**Jump to Index**](#index)
+
 # 12 - Templates
 
 ### Functions 
@@ -778,6 +798,8 @@ returnType className<tVar1, tVar2...>::fnName(agrs)
 
 className<dataType1, dataType2...> objVar(args);
 ```
+
+[**Jump to Index**](#index)
 
 # 13 - Exception Handling
 
@@ -812,6 +834,8 @@ returnType fnName(args) throw(listOfAllowedThrowDataTypes);
 ```
 
 If we throw any other error type than allowed, program terminates completely with a generic message.
+
+[**Jump to Index**](#index)
 
 # 14 - Standard Template Library
 
@@ -927,6 +951,8 @@ value = mapVar[key]; // Get value
 - Set and dequeue are similar to the ones above.
 - We can use `itrVar!=containerVar.end()` for iterating all elements.
 
+[**Jump to Index**](#index)
+
 # 15 - Manipulating Strings
 
 ### Creating
@@ -958,3 +984,5 @@ getline(cin, s1);
 - `erase(startPosition, endPosition)` : Delete a part of string
 - `swap(anotherString)` : Swap 2 strings
 - Most STL algorithms also work with strings.
+
+[**Jump to Index**](#index)
