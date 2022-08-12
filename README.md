@@ -1,9 +1,7 @@
-# C++ Exercise and Notes
+# C++ Notes and Questions
 
-- **Book :** Object-Oriented Programming with C++
-- **Author :** E. Balagurusamy 
+Practice questions are sorted topic wise and contain the question at top, solution, and output at bottom. Object Oriented Programming with C++ book by E. Balagurusamy is used for reference. Scroll down for the short notes or use the Index below.
 
-Solutions are present in their corresponding chapter directories as individual cpp files. Each solution begins with the question and concludes with the output in the form of comments.
 
 ### Index
 
